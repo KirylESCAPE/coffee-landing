@@ -1,0 +1,27 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider  = "postgresql"
+  url       = env("DATABASE_URL")
+  directUrl = env("DATABASE_URL_UNPOOLED")
+}
+
+model Lead {
+  id          String   @id @default(cuid())
+  name        String
+  phone       String
+  interest    String
+  comment     String?
+  utmSource   String?
+  utmMedium   String?
+  utmCampaign String?
+  utmContent  String?
+  utmTerm     String?
+  referrer    String?
+  landingPage String?
+  createdAt   DateTime @default(now())
+
+  @@index([phone, createdAt])
+}
