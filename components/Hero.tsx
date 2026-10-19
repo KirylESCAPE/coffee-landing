@@ -49,8 +49,7 @@ export function Hero() {
 
         <div className="relative aspect-[4/5] rounded-3xl overflow-hidden">
           <Image
-            src="/public/coffee.jpg"
-            alt="Обжарщик проверяет партию зёрен"
+            src="../public/coffee.jpg"
             fill
             priority
             sizes="(max-width: 768px) 100vw, 50vw"
