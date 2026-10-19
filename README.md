@@ -6,6 +6,6 @@
 **Стек:** Next.js 14 (App Router) · TypeScript · Tailwind CSS · Prisma ·
 PostgreSQL (Neon) · деплой на Vercel.
 
-**Cайт:** https://kvarta.vercel.app
+**Cайт:** https://coffee-landing-gamma-nine.vercel.app
 **Репозиторий:** https://github.com/USERNAME/kvarta-landing
 
